@@ -1,6 +1,6 @@
 # Project Report: Leaf Health Analyzer
 
-**Author:** ARNAV YADAV
+**Author:** Hemant
 
 ## Abstract
 
