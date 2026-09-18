@@ -2,7 +2,7 @@
 
 Command-line OpenCV tool that looks at a photo of a **single leaf** and labels it **healthy**, **yellowing**, or **spotted**. It uses color ratios (green / yellow / brown) and a simple dark-spot count. No neural networks.
 
-Author: **ARNAV YADAV**
+Author: **Hemant
 
 ## How to capture photos
 
