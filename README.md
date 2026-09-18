@@ -24,13 +24,15 @@ Put real photos here:
 
 ## Setup
 
+Python 3.10+ is required. Run these commands from the **repository root**.
+
 ```bash
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-On Windows PowerShell:
+Windows PowerShell:
 
 ```powershell
 python -m venv venv
@@ -38,11 +40,7 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 
-Python 3.10+ is required.
-
 ## Run
-
-From the `leaf-health-analyzer/` folder:
 
 Single image:
 
@@ -68,7 +66,7 @@ Demo script (same as the folder command):
 bash scripts/run_demo.sh
 ```
 
-On Windows you can run the same Python command instead of the `.sh` file.
+On Windows, use the Python commands above instead of the `.sh` file.
 
 ## Expected output files
 
@@ -105,10 +103,10 @@ After a run, `outputs/` contains:
 ## Project layout
 
 ```
-leaf-health-analyzer/
+.
   README.md
-  requirements.txt
   PROJECT_REPORT.md
+  requirements.txt
   sample_data/
   src/
   outputs/
